@@ -1,0 +1,13 @@
+name: "Reolink PTZ Control"
+version: "1.0.0"
+slug: "reolink_ptz"
+description: "Node.js-Server (Express + ONVIF) zum Anfahren von Presets"
+arch:
+  - aarch64
+  - armv7
+  - amd64
+startup: services
+boot: auto
+ingress: false
+ports:
+  3000/tcp: 3000
